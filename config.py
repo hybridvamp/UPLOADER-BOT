@@ -1,4 +1,9 @@
 import os
+import dotenv
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Config(object):
     # get a token from @BotFather
